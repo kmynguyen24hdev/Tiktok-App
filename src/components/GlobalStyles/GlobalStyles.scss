@@ -39,7 +39,7 @@ input,
   border: none;
 }
 
-a[href] {
+a {
   color: var(--text-color);
   text-decoration: none;
 }
@@ -112,4 +112,8 @@ html ::-webkit-scrollbar-track {
 
 .d-flex {
   display: flex;
+}
+
+.position-relative {
+  position: relative;
 }
